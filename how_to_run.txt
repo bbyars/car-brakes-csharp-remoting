@@ -1,0 +1,16 @@
+-Ryan Rozelle
+CS553 Remoting Program, How to run:
+
+Directory location: /Release/
+
+Make sure Server.exe, Client.exe, and Remoting.dll are all in the same directory.
+Run Server.exe & run Client.exe.
+
+Enter the Server's computer name or IP on the Client application. localhost if they are on the same machine.
+If you change the TCP Port, make sure to match the server and client.
+
+Enter data in the textboxes on the Client. Click the Send button. See the (readonly) textboxes 
+ on the Server update to match (within bounds of the variable, 1-100 or 1-10 for brake).
+
+When the brake variable is more than 0, watch the friction increase until it hits max,
+ then the brake returns to 0. Execution is paused until braking completes.
