@@ -1,4 +1,4 @@
 car-brakes-csharp-remoting
 ==========================
 
-Sample program to use C# and dotNet remoting
+Car tire/temp HUD example (C#, dotNet remoting)
