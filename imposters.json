@@ -1,0 +1,25 @@
+{
+    "imposters": [
+        {
+            "port": 1501,
+            "protocol": "tcp",
+            "mode": "binary",
+            "name": "RemoteService",
+            "stubs": [
+                {
+                    "responses": [
+                        {
+                            "proxy": {
+                                "to": {
+                                    "host": "localhost",
+                                    "port": 1500
+                                },
+                                "mode": "proxyOnce"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
